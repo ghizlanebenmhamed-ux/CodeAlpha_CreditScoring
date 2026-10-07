@@ -1,0 +1,2 @@
+11 automated tests passed: split, training-only scaling, all held-out predictions, engineering, invalid values, Predict handler, Enter handler, input-error handler, Clear, editing, metrics.
+UI handlers checked with mock widgets. Desktop GUI and Windows launcher were not visually executed in this Linux environment.

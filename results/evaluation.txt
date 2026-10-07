@@ -1,0 +1,13 @@
+              precision    recall  f1-score   support
+
+        good     0.8129    0.9000    0.8542       140
+         bad     0.6889    0.5167    0.5905        60
+
+    accuracy                         0.7850       200
+   macro avg     0.7509    0.7083    0.7224       200
+weighted avg     0.7757    0.7850    0.7751       200
+
+Confusion matrix: [[126, 14], [29, 31]]
+Rows actual, columns predicted; good, bad.
+Training-only 5-fold ROC-AUC: 0.7716517857142856
+UCI weighted error cost: 159

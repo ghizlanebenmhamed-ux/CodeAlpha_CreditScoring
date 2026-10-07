@@ -1,0 +1,31 @@
+{
+  "train_samples": 800,
+  "test_samples": 200,
+  "accuracy": 0.785,
+  "precision_bad": 0.6888888888888889,
+  "recall_bad": 0.5166666666666667,
+  "f1_bad": 0.5904761904761905,
+  "roc_auc_bad": 0.8074999999999999,
+  "confusion_matrix": [
+    [
+      126,
+      14
+    ],
+    [
+      29,
+      31
+    ]
+  ],
+  "confusion_labels": [
+    "good",
+    "bad"
+  ],
+  "threshold": 0.5,
+  "majority_baseline_accuracy": 0.7,
+  "uci_weighted_error_cost": 159,
+  "training_cv_auc_mean": 0.7716517857142856,
+  "training_cv_auc_std": 0.061188654947593325,
+  "model": "Logistic Regression",
+  "positive_class": "bad credit risk",
+  "seed": 42
+}
